@@ -10,10 +10,11 @@
     "uptime": "30 years"
   },
   "environment": {
-    "os": "macOS",
-    "editors": "Cursor, Conductor",
+    "os": "macOS, Linux",
+    "editors": "Cursor, Conductor, Warp",
     "languages": "Python, JavaScript, PHP",
     "infrastructure": "Terraform",
+    "spoken_languages": "English, Azerbaijani, Turkish, Russian",
     "interests": "Gym, Skiing, Cycling"
   },
   "contacts": {

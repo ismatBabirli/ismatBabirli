@@ -202,18 +202,19 @@ def render_svg(
         kv_line(182, "company", identity["company"], 9),
         kv_line(210, "location", identity["location"], 8),
         kv_line(238, "uptime", identity["uptime"], 10),
-        section(282, "environment"),
-        kv_line(312, "os", environment["os"], 14),
-        kv_line(340, "editors", environment["editors"], 9),
-        kv_line(368, "languages", environment["languages"], 7),
-        kv_line(396, "infra", environment["infrastructure"], 11),
-        kv_line(424, "interests", environment["interests"], 7),
-        section(468, "contact"),
-        kv_line(498, "x", contacts["x"], 15),
-        kv_line(526, "linkedin", contacts["linkedin"], 8),
-        section(570, "github"),
+        section(276, "environment"),
+        kv_line(306, "os", environment["os"], 14),
+        kv_line(332, "editors", environment["editors"], 9),
+        kv_line(358, "languages", environment["languages"], 7),
+        kv_line(384, "infra", environment["infrastructure"], 11),
+        kv_line(410, "spoken", environment["spoken_languages"], 10),
+        kv_line(436, "interests", environment["interests"], 7),
+        section(474, "contact"),
+        kv_line(504, "x", contacts["x"], 15),
+        kv_line(532, "linkedin", contacts["linkedin"], 8),
+        section(574, "github"),
         (
-            '<text x="520" y="600" class="body">'
+            '<text x="520" y="602" class="body">'
             '<tspan class="key">repos</tspan><tspan class="muted"> ..... </tspan>'
             f'<tspan class="value">{final_stats["repositories"]}</tspan>'
             '<tspan class="muted">  |  </tspan>'
@@ -222,7 +223,7 @@ def render_svg(
             "</text>"
         ),
         (
-            '<text x="520" y="628" class="body">'
+            '<text x="520" y="630" class="body">'
             '<tspan class="key">contributions</tspan><tspan class="muted"> ... </tspan>'
             f'<tspan class="success">{final_stats["contributions"]}</tspan>'
             '<tspan class="muted">  |  </tspan>'
