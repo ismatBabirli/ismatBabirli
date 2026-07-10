@@ -1,0 +1,30 @@
+{
+  "github_username": "ismatBabirli",
+  "headline": "ismat@babirli",
+  "avatar_url": "https://avatars.githubusercontent.com/u/28364168?v=4",
+  "avatar_crop": [0.24, 0.0, 0.76, 0.72],
+  "identity": {
+    "role": "Senior Software Engineer",
+    "company": "@Jimdo",
+    "location": "Baku, Azerbaijan",
+    "uptime": "30 years"
+  },
+  "environment": {
+    "os": "macOS",
+    "editors": "Cursor, Conductor",
+    "languages": "Python, JavaScript, PHP",
+    "infrastructure": "Terraform",
+    "interests": "Gym, Skiing, Cycling"
+  },
+  "contacts": {
+    "x": "x.com/ismat_babir",
+    "linkedin": "linkedin.com/in/ismat-babir"
+  },
+  "stats": {
+    "repositories": 140,
+    "contributed": 823,
+    "contributions": 4000,
+    "followers": null,
+    "stars": null
+  }
+}
